@@ -1,0 +1,18 @@
+[project]
+name = "mlops-learn"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "minio>=7.2.15",
+    "pandas>=2.3.1",
+    "pyarrow>=20.0.0",
+    "scikit-learn>=1.7.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "pip>=25.1.1",
+]
